@@ -27,5 +27,5 @@ app.get('/data',(req,res)=>{
 
 let port = 3000
 app.listen(port,()=>{
-    console.log('Listen on port '+port)
+    console.log('Server available on : http://localhost:'+port)
 })

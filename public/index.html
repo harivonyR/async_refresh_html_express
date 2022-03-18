@@ -10,8 +10,26 @@
     <title>Scrap - DATA</title>
 </head>
 <body>
-    <h1>Home page here</h1>
+    
     <div class="table-refresh" data-data-url="/data">
+        <div class="table-refres__head">
+            <div id="title">
+                <h1>Web Scraping - App</h1>
+            </div>
+            <div class="table-refresh__options">
+                <span class="table-refresh__label">Scrap :  </span>
+                <button type="button" class="table-refresh__button">
+                    <i class="material-icons">start</i>
+                </button>
+                <button type="button" class="table-refresh__button">
+                    <i class="material-icons">pause</i>
+                </button>
+                <button type="button" class="table-refresh__button">
+                    <i class="material-icons">stop</i>
+                </button>
+            </div>
+        </div>
+        
         <table class="table-refresh__table">
             <thead>
                 <tr>
@@ -50,9 +68,12 @@
             </tbody>
         </table>
         <div class="table-refresh__options">
-            <span class="table-refresh__label">Last update : never</span>
+            <span class="table-refresh__label">Options :  </span>
             <button type="button" class="table-refresh__button">
                 <i class="material-icons">refresh</i>
+            </button>
+            <button type="button" class="table-refresh__button">
+                <i class="material-icons">download</i>
             </button>
         </div>
     </div>
