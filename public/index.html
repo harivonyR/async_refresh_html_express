@@ -11,10 +11,11 @@
 </head>
 <body>
     
-    <div class="table-refresh" data-data-url="/data">
-        <div class="table-refres__head">
+    <div class="table-refresh" data-url="/data">
+        <!-- TABLE HEAD -->
+        <div class="table-refresh__head">
             <div id="title">
-                <h1>Web Scraping - App</h1>
+                <h1 id="title-h1">Web Scraping - App</h1>
             </div>
             <div class="table-refresh__options">
                 <span class="table-refresh__label">Scrap :  </span>
@@ -30,6 +31,7 @@
             </div>
         </div>
         
+        <!-- TABLE -->
         <table class="table-refresh__table">
             <thead>
                 <tr>
@@ -67,6 +69,8 @@
                 </tr>
             </tbody>
         </table>
+
+        <!-- OPTION BUTTON GROUP  -->
         <div class="table-refresh__options">
             <span class="table-refresh__label">Options :  </span>
             <button type="button" class="table-refresh__button">
